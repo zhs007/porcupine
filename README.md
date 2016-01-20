@@ -25,6 +25,7 @@ mask
 ---
 [tiledcli](https://github.com/zhs007/tiledcli)——这是一个简单的处理tiled导出的json数据的命令行工具。
 pathcli——这是一个路径识别的工具，用来生成lin路径文件的。
+[texturepackerjs](https://github.com/zhs007/texturepackerjs)——这是一个命令行的批量图片打包改名工具。
 
 
 第三方库
