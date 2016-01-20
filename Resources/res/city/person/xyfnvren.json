@@ -1,0 +1,9 @@
+{
+	"name":"洗衣服女人", 
+	"act": 
+	[
+		{"name": "idle", "dir": 1, "frames": 8, "filename": "xyfdnr_idle_%d.png", "frametime": 0.1},
+		{"name": "act0", "dir": 1, "frames": 16, "filename": "xyfdnr_act0_%d.png", "frametime": 0.1, "loop": false},
+		{"name": "walk", "dir": 2, "frames": 8, "filename": "xyfdnr_walk_%d_%d.png", "frametime": 0.1, "speed": 8}
+	]
+}

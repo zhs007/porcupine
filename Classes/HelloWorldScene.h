@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "porcupine/world.hpp"
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -14,6 +15,10 @@ public:
 
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+    
+    void onIdle(float dt);
+private:
+    WorldLayer* m_pLayer;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

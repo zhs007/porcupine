@@ -1,0 +1,9 @@
+{
+	"name":"士兵", 
+	"act": 
+	[
+		{"name": "idle", "dir": 1, "frames": 8, "filename": "sb_idle_%d.png", "frametime": 0.1},
+		{"name": "act0", "dir": 1, "frames": 11, "filename": "sb_act0_%d.png", "frametime": 0.1, "loop": false},
+		{"name": "walk", "dir": 2, "frames": 8, "filename": "sb_walk_%d_%d.png", "frametime": 0.1, "speed": 10}
+	]
+}

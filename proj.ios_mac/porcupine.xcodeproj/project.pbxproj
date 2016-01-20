@@ -10,6 +10,26 @@
 		02BF4616997A23473B2CFEE9 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F43A6BC63D68FDA683FB9 /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2544C27A1C4F6C13006DDB03 /* anisprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2671C4F6C13006DDB03 /* anisprite.cpp */; };
+		2544C27B1C4F6C13006DDB03 /* base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2691C4F6C13006DDB03 /* base.cpp */; };
+		2544C27C1C4F6C13006DDB03 /* baseobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C26B1C4F6C13006DDB03 /* baseobj.cpp */; };
+		2544C27D1C4F6C13006DDB03 /* basesprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C26D1C4F6C13006DDB03 /* basesprite.cpp */; };
+		2544C27E1C4F6C13006DDB03 /* fdirsprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C26F1C4F6C13006DDB03 /* fdirsprite.cpp */; };
+		2544C27F1C4F6C13006DDB03 /* layerctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2711C4F6C13006DDB03 /* layerctrl.cpp */; };
+		2544C2801C4F6C13006DDB03 /* mask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2731C4F6C13006DDB03 /* mask.cpp */; };
+		2544C2811C4F6C13006DDB03 /* roadpath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2751C4F6C13006DDB03 /* roadpath.cpp */; };
+		2544C2821C4F6C13006DDB03 /* scheduleex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2761C4F6C13006DDB03 /* scheduleex.cpp */; };
+		2544C2831C4F6C13006DDB03 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2781C4F6C13006DDB03 /* world.cpp */; };
+		2544C2841C4F6C29006DDB03 /* anisprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2671C4F6C13006DDB03 /* anisprite.cpp */; };
+		2544C2851C4F6C2F006DDB03 /* base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2691C4F6C13006DDB03 /* base.cpp */; };
+		2544C2861C4F6C32006DDB03 /* baseobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C26B1C4F6C13006DDB03 /* baseobj.cpp */; };
+		2544C2871C4F6C34006DDB03 /* basesprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C26D1C4F6C13006DDB03 /* basesprite.cpp */; };
+		2544C2881C4F6C37006DDB03 /* fdirsprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C26F1C4F6C13006DDB03 /* fdirsprite.cpp */; };
+		2544C2891C4F6C3A006DDB03 /* layerctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2711C4F6C13006DDB03 /* layerctrl.cpp */; };
+		2544C28A1C4F6C3E006DDB03 /* mask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2731C4F6C13006DDB03 /* mask.cpp */; };
+		2544C28B1C4F6C40006DDB03 /* roadpath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2751C4F6C13006DDB03 /* roadpath.cpp */; };
+		2544C28C1C4F6C43006DDB03 /* scheduleex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2761C4F6C13006DDB03 /* scheduleex.cpp */; };
+		2544C28D1C4F6C46006DDB03 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544C2781C4F6C13006DDB03 /* world.cpp */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
@@ -69,6 +89,25 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* porcupine-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "porcupine-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2544C2671C4F6C13006DDB03 /* anisprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = anisprite.cpp; sourceTree = "<group>"; };
+		2544C2681C4F6C13006DDB03 /* anisprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = anisprite.hpp; sourceTree = "<group>"; };
+		2544C2691C4F6C13006DDB03 /* base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base.cpp; sourceTree = "<group>"; };
+		2544C26A1C4F6C13006DDB03 /* basedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basedef.h; sourceTree = "<group>"; };
+		2544C26B1C4F6C13006DDB03 /* baseobj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseobj.cpp; sourceTree = "<group>"; };
+		2544C26C1C4F6C13006DDB03 /* baseobj.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = baseobj.hpp; sourceTree = "<group>"; };
+		2544C26D1C4F6C13006DDB03 /* basesprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basesprite.cpp; sourceTree = "<group>"; };
+		2544C26E1C4F6C13006DDB03 /* basesprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = basesprite.hpp; sourceTree = "<group>"; };
+		2544C26F1C4F6C13006DDB03 /* fdirsprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fdirsprite.cpp; sourceTree = "<group>"; };
+		2544C2701C4F6C13006DDB03 /* fdirsprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fdirsprite.hpp; sourceTree = "<group>"; };
+		2544C2711C4F6C13006DDB03 /* layerctrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = layerctrl.cpp; sourceTree = "<group>"; };
+		2544C2721C4F6C13006DDB03 /* layerctrl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = layerctrl.hpp; sourceTree = "<group>"; };
+		2544C2731C4F6C13006DDB03 /* mask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mask.cpp; sourceTree = "<group>"; };
+		2544C2741C4F6C13006DDB03 /* mask.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mask.hpp; sourceTree = "<group>"; };
+		2544C2751C4F6C13006DDB03 /* roadpath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roadpath.cpp; sourceTree = "<group>"; };
+		2544C2761C4F6C13006DDB03 /* scheduleex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scheduleex.cpp; sourceTree = "<group>"; };
+		2544C2771C4F6C13006DDB03 /* scheduleex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scheduleex.hpp; sourceTree = "<group>"; };
+		2544C2781C4F6C13006DDB03 /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
+		2544C2791C4F6C13006DDB03 /* world.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = world.hpp; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3D77407C86C4E7570AC0EFF9 /* libcocos2d Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d Mac.a"; path = "/Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/mac/libcocos2d Mac.a"; sourceTree = "<absolute>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -190,6 +229,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2544C2661C4F6C13006DDB03 /* porcupine */ = {
+			isa = PBXGroup;
+			children = (
+				2544C2671C4F6C13006DDB03 /* anisprite.cpp */,
+				2544C2681C4F6C13006DDB03 /* anisprite.hpp */,
+				2544C2691C4F6C13006DDB03 /* base.cpp */,
+				2544C26A1C4F6C13006DDB03 /* basedef.h */,
+				2544C26B1C4F6C13006DDB03 /* baseobj.cpp */,
+				2544C26C1C4F6C13006DDB03 /* baseobj.hpp */,
+				2544C26D1C4F6C13006DDB03 /* basesprite.cpp */,
+				2544C26E1C4F6C13006DDB03 /* basesprite.hpp */,
+				2544C26F1C4F6C13006DDB03 /* fdirsprite.cpp */,
+				2544C2701C4F6C13006DDB03 /* fdirsprite.hpp */,
+				2544C2711C4F6C13006DDB03 /* layerctrl.cpp */,
+				2544C2721C4F6C13006DDB03 /* layerctrl.hpp */,
+				2544C2731C4F6C13006DDB03 /* mask.cpp */,
+				2544C2741C4F6C13006DDB03 /* mask.hpp */,
+				2544C2751C4F6C13006DDB03 /* roadpath.cpp */,
+				2544C2761C4F6C13006DDB03 /* scheduleex.cpp */,
+				2544C2771C4F6C13006DDB03 /* scheduleex.hpp */,
+				2544C2781C4F6C13006DDB03 /* world.cpp */,
+				2544C2791C4F6C13006DDB03 /* world.hpp */,
+			);
+			path = porcupine;
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +308,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2544C2661C4F6C13006DDB03 /* porcupine */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -424,10 +490,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				2544C27A1C4F6C13006DDB03 /* anisprite.cpp in Sources */,
+				2544C2811C4F6C13006DDB03 /* roadpath.cpp in Sources */,
+				2544C27C1C4F6C13006DDB03 /* baseobj.cpp in Sources */,
+				2544C2831C4F6C13006DDB03 /* world.cpp in Sources */,
+				2544C27B1C4F6C13006DDB03 /* base.cpp in Sources */,
+				2544C2821C4F6C13006DDB03 /* scheduleex.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				2544C2801C4F6C13006DDB03 /* mask.cpp in Sources */,
+				2544C27F1C4F6C13006DDB03 /* layerctrl.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				2544C27D1C4F6C13006DDB03 /* basesprite.cpp in Sources */,
+				2544C27E1C4F6C13006DDB03 /* fdirsprite.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +511,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2544C2861C4F6C32006DDB03 /* baseobj.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				2544C28B1C4F6C40006DDB03 /* roadpath.cpp in Sources */,
+				2544C2841C4F6C29006DDB03 /* anisprite.cpp in Sources */,
+				2544C28A1C4F6C3E006DDB03 /* mask.cpp in Sources */,
+				2544C28C1C4F6C43006DDB03 /* scheduleex.cpp in Sources */,
+				2544C2891C4F6C3A006DDB03 /* layerctrl.cpp in Sources */,
+				2544C2881C4F6C37006DDB03 /* fdirsprite.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				2544C2851C4F6C2F006DDB03 /* base.cpp in Sources */,
+				2544C2871C4F6C34006DDB03 /* basesprite.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				2544C28D1C4F6C46006DDB03 /* world.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,10 +555,7 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/ios",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/ios";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
@@ -507,10 +590,7 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/ios",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/ios";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
@@ -546,10 +626,7 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.9/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/mac",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/mac";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
@@ -580,10 +657,7 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.9/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/mac",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.9/prebuilt/mac";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",

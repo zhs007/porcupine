@@ -1,0 +1,206 @@
+{
+	"name":"洛阳", 
+	"layer": 
+	[
+		{"name": "back", "type": "image", "filename": "res/city/5055/city5055.png"},
+		{"name": "normal", "type": "objlayer"}
+	],
+	"objlist":
+	[
+		{"name": "小二", "filename": "res/city/person/xiaoer2.json", "pos": "pathbegin", "path": "res/city/5055/path003.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/zfxs.json", "pos": "pathbegin", "path": "res/city/5055/path002.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/xnh.json", "pos": "pathbegin", "path": "res/city/5055/path001.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/yuanwai.json", "pos": "pathbegin", "path": "res/city/5055/path005.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/shibing.json", "pos": "pathbegin", "path": "res/city/5055/path006.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/shibing.json", "x": 496, "y": 382, "scalex": -1, "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 3},
+			{"name": "act0", "act": "act0"},
+			{"name": "idle1", "act": "idle", "time": 2}
+		]},
+		{"name": "小二", "filename": "res/city/person/shibing.json", "x": 766, "y": 226, "scalex": -1, "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 3},
+			{"name": "act0", "act": "act0"},
+			{"name": "idle1", "act": "idle", "time": 2}
+		]},		
+		{"name": "小二", "filename": "res/city/person/shibing.json", "x": 667, "y": 390, "scalex": -1, "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 3},
+			{"name": "act0", "act": "act0"},
+			{"name": "idle1", "act": "idle", "time": 2}
+		]},				
+		{"name": "小二", "filename": "res/city/person/shibing.json", "x": 733, "y": 351, "scalex": -1, "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 3},
+			{"name": "act0", "act": "act0"},
+			{"name": "idle1", "act": "idle", "time": 2}
+		]},						
+		{"name": "小二", "filename": "res/city/person/zhbd.json", "pos": "pathbegin", "path": "res/city/5055/path007.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path007.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path007.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path007.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path007.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/zhbd.json", "pos": "pathbegin", "path": "res/city/5055/path001.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"},
+			{"name": "idle1", "act": "idle", "time": 5},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"},
+			{"name": "idle1", "act": "idle", "time": 8},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"},
+			{"name": "idle1", "act": "idle", "time": 5},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path001.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/zhmt.json", "pos": "pathbegin", "path": "res/city/5055/path002.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"},
+			{"name": "idle1", "act": "idle", "time": 5},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"},
+			{"name": "idle1", "act": "idle", "time": 7},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"},
+			{"name": "idle1", "act": "idle", "time": 9},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path002.lin"}
+		]},		
+		{"name": "小二", "filename": "res/city/person/zhbd.json", "pos": "pathbegin", "path": "res/city/5055/path003.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path003.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/zhmt.json", "pos": "pathbegin", "path": "res/city/5055/path004.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path004.lin"},
+			{"name": "idle1", "act": "idle", "time": 6},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path004.lin"},
+			{"name": "idle1", "act": "idle", "time": 8},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path004.lin"},
+			{"name": "idle1", "act": "idle", "time": 9},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path004.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/zhbd.json", "pos": "pathbegin", "path": "res/city/5055/path005.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"},
+			{"name": "idle1", "act": "idle", "time": 7},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"},
+			{"name": "idle1", "act": "idle", "time": 6},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path005.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/zhmt.json", "pos": "pathbegin", "path": "res/city/5055/path006.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 9},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 6},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 5},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"}
+		]},		
+		{"name": "小二", "filename": "res/city/person/zhmt.json", "pos": "pathbegin", "path": "res/city/5055/path008.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "act0", "act": "act0"},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path008.lin"},
+			{"name": "idle1", "act": "idle", "time": 8},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path008.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path008.lin"},
+			{"name": "idle1", "act": "idle", "time": 4},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path008.lin"}
+		]},
+		{"name": "小二", "filename": "res/city/person/mc.json", "pos": "pathbegin", "path": "res/city/5055/path006.lin", "actlist": 
+		[
+			{"name": "idle", "act": "idle", "time": 7},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 3},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 2},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"},
+			{"name": "idle1", "act": "idle", "time": 1},
+			{"name": "walk", "act": "walk", "path": "res/city/5055/path006.lin"}
+		]}
+	],
+	"mask":
+	[
+		{"name": "alpha", "filename": "res/city/5055/5055.mask", "tw": 8, "th": 8}
+	]
+}

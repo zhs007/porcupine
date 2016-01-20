@@ -1,0 +1,9 @@
+{
+	"name":"账房先生", 
+	"act": 
+	[
+		{"name": "idle", "dir": 1, "frames": 8, "filename": "zfxs_idle_%d.png", "frametime": 0.1},
+		{"name": "act0", "dir": 1, "frames": 9, "filename": "zfxs_act0_%d.png", "frametime": 0.1, "loop": false},
+		{"name": "walk", "dir": 2, "frames": 6, "filename": "zfxs_walk_%d_%d.png", "frametime": 0.1, "speed": 7}
+	]
+}

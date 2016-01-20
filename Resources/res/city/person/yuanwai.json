@@ -1,0 +1,9 @@
+{
+	"name":"员外", 
+	"act": 
+	[
+		{"name": "idle", "dir": 1, "frames": 8, "filename": "yw_idle_%d.png", "frametime": 0.1},
+		{"name": "act0", "dir": 1, "frames": 14, "filename": "yw_act0_%d.png", "frametime": 0.1, "loop": false},
+		{"name": "walk", "dir": 2, "frames": 6, "filename": "yw_walk_%d_%d.png", "frametime": 0.1, "speed": 12}
+	]
+}

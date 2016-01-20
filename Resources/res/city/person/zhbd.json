@@ -1,0 +1,9 @@
+{
+	"name":"壮汉扁担", 
+	"act": 
+	[
+		{"name": "idle", "dir": 1, "frames": 8, "filename": "zhtbd_idle_%d.png", "frametime": 0.1},
+		{"name": "act0", "dir": 1, "frames": 10, "filename": "zhtbd_act0_%d.png", "frametime": 0.1, "loop": false},
+		{"name": "walk", "dir": 2, "frames": 8, "filename": "zhtbd_walk_%d_%d.png", "frametime": 0.1, "speed": 13}
+	]
+}

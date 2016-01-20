@@ -31,9 +31,22 @@ bool HelloWorld::init()
         return false;
     }
     
-    auto rootNode = CSLoader::createNode("MainScene.csb");
+    cocos2d::SpriteFrameCache::getInstance()->addSpriteFramesWithFile("res/city/cityperson.plist", "res/city/cityperson.pvr.ccz");
+    
+    m_pLayer = new WorldLayer();
+    m_pLayer->load("res/city/5055/city.json");
+    m_pLayer->setRoot(this);
+    
+    schedule(schedule_selector(HelloWorld::onIdle));
+    
+    //auto rootNode = CSLoader::createNode("MainScene.csb");
 
-    addChild(rootNode);
+    //addChild(rootNode);
 
     return true;
+}
+
+void HelloWorld::onIdle(float dt)
+{
+    m_pLayer->onIdle(dt);
 }

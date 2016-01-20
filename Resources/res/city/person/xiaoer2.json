@@ -1,0 +1,9 @@
+{
+	"name":"小二", 
+	"act": 
+	[
+		{"name": "idle", "dir": 1, "frames": 8, "filename": "xe_idle_%d.png", "frametime": 0.1},
+		{"name": "act0", "dir": 1, "frames": 16, "filename": "xe_act0_%d.png", "frametime": 0.1, "loop": false},
+		{"name": "walk", "dir": 2, "frames": 6, "filename": "xe_walk_%d_%d.png", "frametime": 0.1, "speed": 11}
+	]
+}

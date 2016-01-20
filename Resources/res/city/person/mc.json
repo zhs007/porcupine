@@ -1,0 +1,8 @@
+{
+	"name":"士兵", 
+	"act": 
+	[
+		{"name": "idle", "dir": 0, "frames": 0, "filename": "", "frametime": 0.1, "speed": 10},
+		{"name": "walk", "dir": 2, "frames": 6, "filename": "mc_walk_%d_%d.png", "frametime": 0.1, "speed": 15}
+	]
+}
